@@ -1,0 +1,27 @@
+@import "../../variables.scss";
+
+.sort-widget {
+  display: inline;
+  margin-left: 8px;
+
+  .sort-title {
+    margin-right: 1rem;
+  }
+
+  .ant-radio-wrapper {
+
+    span {
+      padding-right: 0 !important;
+    }
+  }
+  input[type="radio"] {
+    margin: 0 1rem 0 0.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sort-container {
+    display: inline-block;
+    position: initial;
+  }
+}

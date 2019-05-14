@@ -1,0 +1,26 @@
+.house {
+  display: inline-flex;
+  text-align: center;
+  margin-right: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+
+  .ant-card {
+    .ant-card-bordered {
+      border: none;
+    }
+    .ant-card-body {
+      padding: 5px 0 0 0;
+    }
+    .ant-card-actions {
+      li {
+        margin: 5px 0;
+      }
+    }
+    .price-input{
+      margin-bottom: 11px;
+      margin-top: 0;
+      width:100px;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.vendor {
+  width: 100%;
+  display: block;
+  .vendor-header {
+    position: relative;
+    .vendor-row {
+      .sort-col {
+        text-align: right;
+        display: flex;
+        align-self: center;
+        justify-content: flex-end;
+      }
+      .vendor-name {
+        display: flex;
+        align-self: center;
+        div {
+          padding-left: 30px;
+          text-align: center;
+        }
+      }
+      .vendor-logo {
+        display: flex;
+        align-items: center;
+        img {
+          height: 80px;
+          width: 150px;
+          object-fit: contain;
+          flex-grow: 0;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vendor-row {
+    justify-content: center;
+  }
+  .logo-col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

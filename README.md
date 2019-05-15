@@ -11,3 +11,5 @@ React/Hooks vendor houses management system with sorting
 
 ## Server Running
 ```node api```
+## Testing
+coming soon ...

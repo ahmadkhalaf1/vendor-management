@@ -18,8 +18,8 @@ const Slider = ({ houses }) => {
   const renderNavigation = () => {
     // when to show right and left arrows
     let displayCondition = numberOfCardsToDisplay === 3 ?
-      currentIndex + 2 <= houses.length - 3 :
-      currentIndex + 1 <= houses.length - 2;
+      currentIndex + 2 < houses.length - 1 :
+      currentIndex + 1 < houses.length - 1;
 
     return (
       <div className="slider-arrows">
